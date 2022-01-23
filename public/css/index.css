@@ -1330,6 +1330,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 1.5rem;
   }
 
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .lg\:font-semibold {
     font-weight: 600;
   }
