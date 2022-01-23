@@ -476,9 +476,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 16rem;
 }
 
-.bg-red-200 {
+.bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+  background-color: rgb(204 45 74 / var(--tw-bg-opacity));
 }
 
 .text-3xl {
@@ -488,9 +488,4 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bold {
   font-weight: 700;
-}
-
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
 }
