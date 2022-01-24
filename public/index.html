@@ -9,27 +9,28 @@
   </head>
   <body class="font-Montserrat">
     <nav
-      class="hidden lg:bg-white lg:w-full lg:h-16 lg:flex lg:justify-between lg:items-center lg:px-2 lg:text-primary lg:font-semibold lg:space-x-48"
+      class="hidden lg:bg-white lg:w-full lg:h-14 lg:flex lg:justify-between lg:items-center lg:px-4 lg:text-primary"
     >
-      <div class="w-1/5">Platzi Travel</div>
-      <div class="w-full flex justify-evenly">
-        <p>Locations</p>
-        <p>Stays</p>
-        <p>FAQs</p>
-        <p>About Us</p>
+      <div class="h-auto w-auto">
+        <p class="text-xl font-bold">Platzi Travel</p>
       </div>
-      <div class="w-1/5 flex justify-evenly">
+      <div class="flex space-x-8 text-base font-bold">
+        <a href="#home">Locations</a>
+        <a href="#trending-stays">Stays</a>
+        <a href="#faqs">FAQs</a>
+        <a href="#about-us">About Us</a>
+      </div>
+      <div class="flex space-x-4">
         <a href="#recommended">
           <svg
-            width="30"
-            height="30"
+            width="20"
+            height="20"
             viewBox="0 0 20 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              class="fill-current text-gray-200"
-              class="fill-current text-principal"
+              class="fill-current text-primary"
               fill-rule="evenodd"
               clip-rule="evenodd"
               d="M8 3.99997C6.93913 3.99997 5.92172 4.4214 5.17157 5.17155C4.42143 5.92169 4 6.93911 4 7.99997C4 9.06084 4.42143 10.0783 5.17157 10.8284C5.92172 11.5785 6.93913 12 8 12C9.06087 12 10.0783 11.5785 10.8284 10.8284C11.5786 10.0783 12 9.06084 12 7.99997C12 6.93911 11.5786 5.92169 10.8284 5.17155C10.0783 4.4214 9.06087 3.99997 8 3.99997ZM2 7.99997C1.99988 7.05568 2.22264 6.12468 2.65017 5.28271C3.0777 4.44074 3.69792 3.71157 4.4604 3.1545C5.22287 2.59743 6.10606 2.22819 7.03815 2.07681C7.97023 1.92543 8.92488 1.99618 9.82446 2.28332C10.724 2.57046 11.5432 3.06587 12.2152 3.72927C12.8872 4.39266 13.3931 5.20531 13.6919 6.10111C13.9906 6.9969 14.0737 7.95056 13.9343 8.88452C13.795 9.81848 13.4372 10.7064 12.89 11.476L17.707 16.293C17.8892 16.4816 17.99 16.7342 17.9877 16.9964C17.9854 17.2586 17.8802 17.5094 17.6948 17.6948C17.5094 17.8802 17.2586 17.9854 16.9964 17.9876C16.7342 17.9899 16.4816 17.8891 16.293 17.707L11.477 12.891C10.5794 13.5293 9.52335 13.9081 8.42468 13.9861C7.326 14.0641 6.22707 13.8381 5.2483 13.3329C4.26953 12.8278 3.44869 12.063 2.87572 11.1223C2.30276 10.1816 1.99979 9.10141 2 7.99997Z"
@@ -39,8 +40,8 @@
         </a>
         <button>
           <svg
-            width="30"
-            height="30"
+            width="20"
+            height="20"
             viewBox="0 0 29 29"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -54,8 +55,8 @@
         </button>
         <a href="">
           <svg
-            width="30"
-            height="30"
+            width="20"
+            height="20"
             viewBox="0 0 20 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +86,7 @@
               id="search"
             />
             <div class="hidden h-auto lg:w-2/3 lg:flex pb-6 ml-12">
-              <p class="text-4xl ml-6 font-bold">
+              <p class="text-4xl ml-6 lg:font-semibold">
                 Find More Locations like this
               </p>
             </div>
@@ -149,6 +150,20 @@
               <p class="text-base">A break from the world</p>
             </div>
           </div>
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-europe bg-cover"></div>
+            <div class="card-details">
+              <p class="font-bold text-xl">Europe</p>
+              <p class="text-base">A break from the world</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-iceland bg-cover"></div>
+            <div class="card-details">
+              <p class="font-bold text-xl">Iceland</p>
+              <p class="text-base">A break from the world</p>
+            </div>
+          </div>
         </div>
       </div>
       <div id="trending-stays" class="p-6 h-full w-full">
@@ -157,7 +172,7 @@
           class="w-full h-full flex flex-col space-y-4 items-center justify-center mt-6"
         >
           <div
-            class="w-full h-96 bg-chicago bg-cover rounded-xl lg:h-[38rem] lg:text-right lg:bg-center lg:pt-12"
+            class="w-full h-96 bg-chicago bg-cover bg-center rounded-xl lg:h-[38rem] lg:text-right lg:bg-center lg:pt-12"
           >
             <p class="card-title">Chicago</p>
             <p class="text-sm pl-8 text-white mr-24 lg:mr-8 lg:text-base">
@@ -168,7 +183,7 @@
             class="w-full h-full grid grid-cols-1 lg:grid-cols-5 lg:grid-rows-2 lg:place-items-center lg:place-content-stretch gap-4"
           >
             <div
-              class="w-full h-96 bg-LA bg-cover rounded-xl lg:row-span-2 lg:col-span-2 lg:h-[49rem] lg:text-right lg:bg-center lg:pt-12"
+              class="w-full h-96 bg-LA bg-cover bg-center rounded-xl lg:row-span-2 lg:col-span-2 lg:h-[49rem] lg:text-right lg:bg-center lg:pt-12"
             >
               <p class="card-title">Los Angeles</p>
               <p class="text-sm pl-8 text-white mr-24 lg:mr-8 lg:text-lg">
@@ -176,7 +191,7 @@
               </p>
             </div>
             <div
-              class="w-full h-96 bg-miami bg-cover rounded-xl lg:row-span-1 lg:col-span-3 lg:text-right lg:bg-center lg:pt-12"
+              class="w-full h-96 bg-miami bg-cover bg-center rounded-xl lg:row-span-1 lg:col-span-3 lg:text-right lg:bg-center lg:pt-12"
             >
               <p class="card-title">Miami</p>
               <p class="text-sm pl-8 text-white mr-24 lg:mr-8 lg:text-lg">
@@ -184,7 +199,7 @@
               </p>
             </div>
             <div
-              class="w-full h-96 bg-bali bg-cover rounded-xl lg:row-span-1 lg:col-span-3 lg:text-right lg:bg-center lg:pt-12"
+              class="w-full h-96 bg-bali bg-cover bg-center rounded-xl lg:row-span-1 lg:col-span-3 lg:text-right lg:bg-center lg:pt-12"
             >
               <p class="card-title">Bali</p>
               <p class="text-sm pl-8 text-white mr-24 lg:mr-8 lg:text-lg">
@@ -224,7 +239,10 @@
         </div>
       </div>
     </section>
-    <footer class="w-full h-auto p-6 bg-gray-100 text-gray-400 space-y-2">
+    <footer
+      id="about-us"
+      class="w-full h-auto p-6 bg-gray-100 text-gray-400 space-y-2"
+    >
       <p class="text-lg font-semibold">About Us</p>
       <p class="text-sm">Investors</p>
       <p class="text-sm">Jobs</p>
@@ -266,7 +284,6 @@
         >
           <path
             class="fill-current text-gray-200"
-            class="fill-current text-principal"
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M8 3.99997C6.93913 3.99997 5.92172 4.4214 5.17157 5.17155C4.42143 5.92169 4 6.93911 4 7.99997C4 9.06084 4.42143 10.0783 5.17157 10.8284C5.92172 11.5785 6.93913 12 8 12C9.06087 12 10.0783 11.5785 10.8284 10.8284C11.5786 10.0783 12 9.06084 12 7.99997C12 6.93911 11.5786 5.92169 10.8284 5.17155C10.0783 4.4214 9.06087 3.99997 8 3.99997ZM2 7.99997C1.99988 7.05568 2.22264 6.12468 2.65017 5.28271C3.0777 4.44074 3.69792 3.71157 4.4604 3.1545C5.22287 2.59743 6.10606 2.22819 7.03815 2.07681C7.97023 1.92543 8.92488 1.99618 9.82446 2.28332C10.724 2.57046 11.5432 3.06587 12.2152 3.72927C12.8872 4.39266 13.3931 5.20531 13.6919 6.10111C13.9906 6.9969 14.0737 7.95056 13.9343 8.88452C13.795 9.81848 13.4372 10.7064 12.89 11.476L17.707 16.293C17.8892 16.4816 17.99 16.7342 17.9877 16.9964C17.9854 17.2586 17.8802 17.5094 17.6948 17.6948C17.5094 17.8802 17.2586 17.9854 16.9964 17.9876C16.7342 17.9899 16.4816 17.8891 16.293 17.707L11.477 12.891C10.5794 13.5293 9.52335 13.9081 8.42468 13.9861C7.326 14.0641 6.22707 13.8381 5.2483 13.3329C4.26953 12.8278 3.44869 12.063 2.87572 11.1223C2.30276 10.1816 1.99979 9.10141 2 7.99997Z"
